@@ -1,6 +1,6 @@
 {
   "name": "bmrequesttype",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Calculate bmRequestType for USB",
   "main": "index.js",
   "scripts": {
