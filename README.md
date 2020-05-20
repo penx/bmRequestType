@@ -11,8 +11,12 @@ Useful combined with e.g. [node-usb](https://github.com/tessel/node-usb).
 
 ## Usage
 
+```sh
+npm i bmrequesttype
+```
+
 ```js
-const { bmRequestType, DIRECTION, TYPE, RECIPIENT } = require('./bmRequestType');
+const { bmRequestType, DIRECTION, TYPE, RECIPIENT } = require('bmrequesttype');
 bmRequestType(DIRECTION.Out, TYPE.Class, RECIPIENT.Interface); // 33
 ```
 
