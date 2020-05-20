@@ -18,17 +18,19 @@ bmRequestType(DIRECTION.Out, TYPE.Class, RECIPIENT.Interface); // 33
 
 ## API
 
+```
 bmRequestType(direction, type, recipient)
 
-- DIRECTION.Out = 0
-- DIRECTION.In = 1
+DIRECTION.Out = 0
+DIRECTION.In = 1
 
-- TYPE.Standard = 0
-- TYPE.Class = 1
-- TYPE.Vendor = 2
-- TYPE.Reserved = 3
+TYPE.Standard = 0
+TYPE.Class = 1
+TYPE.Vendor = 2
+TYPE.Reserved = 3
 
-- RECIPIENT.Device = 0
-- RECIPIENT.Interface = 1
-- RECIPIENT.Endpoint = 2
-- RECIPIENT.Other = 3
+RECIPIENT.Device = 0
+RECIPIENT.Interface = 1
+RECIPIENT.Endpoint = 2
+RECIPIENT.Other = 3
+```
