@@ -4,7 +4,7 @@
   "description": "Calculate bmRequestType for USB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "USB"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/penx/bmRequestType/issues"
   },
-  "homepage": "https://github.com/penx/bmRequestType#readme"
+  "homepage": "https://github.com/penx/bmRequestType#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }

@@ -16,7 +16,7 @@ module.exports = {
       Other: 3,
     },
     bmRequestType: (direction, type, recipient) => {
-      return (direction * Math.pow(2, 7)) | (type * Math.pow(2, 5)) | recipient;
+      return (direction << 7 | type << 5 | recipient);
     },
   };
   
